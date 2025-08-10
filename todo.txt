@@ -12,11 +12,13 @@ Traitement texte
 Notebooks :
 - Création des fichiers Mistral
 - Réalisation des OCR + Création du dataset de chunks
-- Exploration des données
-    - Nombre de chunks / caractères / mots par année
+- Exploration des données et cleaning
+    - Doublons de chunks --> Suppression des doublons (graphique avant / après)
+    - Répartition du nombre de caractères/mots par chunk --> Suppression (graphique avant / après)
+    - Répartition du nombre de chunks/caractères/mots par année
+    - Relation entre nombre de pages et nombre de chunks par année
     - Comptage des mots les plus fréquents (avec/sans stopwords)
     - Thèmes et sous thèmes les plus fréquents
-    - Nombre de tokens/caractères par chunk
 - Création de la base de données vectorielle
 - Création jeu de données de test
 - Tests et expérimentations de récupération de vecteurs
